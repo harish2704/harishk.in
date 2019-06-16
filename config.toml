@@ -1,0 +1,5 @@
+baseURL = "https://harishk.in/"
+languageCode = "en-us"
+title = "Harish Karumuthil"
+theme = "ananke"
+minify = true
