@@ -2,4 +2,39 @@ baseURL = "https://harishk.in/"
 languageCode = "en-us"
 title = "Harish Karumuthil"
 theme = "ananke"
-minify = true
+disqusShortname = "harishk-in"
+
+DefaultContentLanguage = "mal"
+copyright = "Everything is mine"
+
+[languages]
+  [languages.en]
+    title = "Harish Karumuthil"
+    languageName = "English"
+    contentDir = "content/en"
+
+  [languages.mal]
+    languageName = "മലയാളം"
+    title = "ഹരീഷ് കരുമുത്തിൽ"
+    contentDir = "content/mal"
+
+[[languages.mal.menu.main]]
+  name   = "പോസ്റ്റുകൾ"
+  identifier = "posts"
+  url = "/posts"
+
+[[languages.en.menu.main]]
+  name   = "posts"
+  identifier = "posts"
+  url = "/en/posts"
+
+[[languages.mal.menu.main]]
+  name   = "വെബ് പ്രസന്റേഷൻസ്"
+  identifier = "presentations"
+  url = "/presentations"
+
+[[languages.en.menu.main]]
+  name   = "presentations"
+  identifier = "presentations"
+  url = "/en/presentations"
+
